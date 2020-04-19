@@ -1,0 +1,20 @@
+{
+  "name": "photo-bomb",
+  "productName": "PhotoBomb",
+  "version": "1.0.0",
+  "description": "Photobooth app",
+  "main": "src/main.js",
+  "scripts": {
+	 "build": "rimraf PhotoBomb-* && electron-packager . --platform=darwin --arch=x64 --icon=app.icns",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-packager": "^14.2.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
